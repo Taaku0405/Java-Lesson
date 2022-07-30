@@ -56,5 +56,11 @@ class Main {
     System.out.println(number1);
     System.out.println(text);
 
+    // 変数number3の値に7を足して変数numberを上書きして出力
+    int number3 = 3;
+    System.out.println(number3);
+    number3 = number3 + 7;
+    System.out.println(number3);
+
   }
 }
